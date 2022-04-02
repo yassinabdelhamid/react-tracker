@@ -1,7 +1,10 @@
 function App() {
+
+  const author = 'Yassin'
+
   return (
-    <div className="App">
-      <h1>Hello from React</h1>
+    <div className="container">
+      <h1>Hello {author}</h1>
     </div>
   )
 }
