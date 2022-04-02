@@ -1,10 +1,10 @@
-function App() {
+import Header from './components/Header'
 
-  const author = 'Yassin'
+function App() {
 
   return (
     <div className="container">
-      <h1>Hello {author}</h1>
+      <Header />
     </div>
   )
 }
