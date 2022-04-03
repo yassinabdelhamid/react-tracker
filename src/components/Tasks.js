@@ -1,4 +1,4 @@
-const task = [
+const tasks = [
     {
         id: 1,
         text: 'Doctors Appointment',
@@ -19,12 +19,14 @@ const task = [
     }
 ]
 
-const Task = () => {
+const Tasks = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      {tasks.map((task) => (
+      <h3 key={task.id}>{task.text}</h3>
+      ))}
+    </>
   )
 }
 
-export default Task
+export default Tasks
